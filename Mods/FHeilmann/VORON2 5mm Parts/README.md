@@ -1,0 +1,1 @@
+Use these parts if you don't have MISUMI extrusions and ended up with extrusions that have a 5mm wide slot instead of the 6mm slot the MISUMI extrusions have. These parts are identical to the originals except for the tabs that slot into the extrusion. Those have 0.5mm shaved off on each side.
