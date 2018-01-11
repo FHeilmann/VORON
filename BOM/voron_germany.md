@@ -14,7 +14,7 @@
 | Drop-in T Slot Nuts - M5 for 6mm slot                   | VB-FR-01-TSN2    | eBay(cnc-zubehoer)           | 131647310693               | 36  |
 
 #### Option 2:
-- 5mm slot extrusions Type A
+- 5mm slot extrusions Type I
 - __Drawbacks:__ requires modified 3d printed parts. The tabs going into the extrusion slots have to be slimmed down 
 - __Advantages:__ deeper slots (more space for cables), thread rolling nuts as per BOM, easier to source in black color
 
