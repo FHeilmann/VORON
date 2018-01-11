@@ -3,8 +3,8 @@
 ### Frame  
 
 #### Option 1:
-- 6mm slot extrusions Type B
-- __Drawbacks:__ shallower slots (affects the roll in nuts, if used), M6 ends instead of M5, difficult to source in black color
+- 6mm slot extrusions Type B, M6 end holes
+- __Drawbacks:__ shallower slots (affects the roll in nuts, if used), difficult to source in black color
 - __Advantages:__ No changes to 3d printed parts necessary
 
 | Description                                                   | MZBot Part #     | Supplier                     | Supplier Part # / eBay #   | Qty |
@@ -14,9 +14,9 @@
 | Drop-in T Slot Nuts - M5 for 6mm slot                   | VB-FR-01-TSN2    | eBay(cnc-zubehoer)           | 131647310693               | 36  |
 
 #### Option 2:
-- 5mm slot extrusions Type I
+- 5mm slot extrusions Type I, M5 end holes
 - __Drawbacks:__ requires modified 3d printed parts. The tabs going into the extrusion slots have to be slimmed down 
-- __Advantages:__ deeper slots (more space for cables), thread rolling nuts as per BOM, easier to source in black color
+- __Advantages:__ deeper slots (more space for cables), easier to source in black color
 
 | Description                                                   | MZBot Part #     | Supplier                     | Supplier Part # / eBay #   | Qty |
 |---------------------------------------------------------------|------------------|------------------------------|----------------------------|-----|
