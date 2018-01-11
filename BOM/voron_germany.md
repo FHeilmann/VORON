@@ -1,10 +1,29 @@
 # VORON BOM  
 
 ### Frame  
+
+#### Option 1:
+- 6mm slot extrusions Type B
+- __Drawbacks:__ shallower slots (affects the roll in nuts, if used), M6 ends instead of M5, difficult to source in black color
+- __Advantages:__ No changes to 3d printed parts necessary
+
 | Description                                                   | MZBot Part #     | Supplier                     | Supplier Part # / eBay #   | Qty |
 |---------------------------------------------------------------|------------------|------------------------------|----------------------------|-----|
 | 2020 Extrusion - Black - 370mm, 6mm slot, for M6 in end-holes | VB-FR-01-EXT1    | SMT Montagetechnik           | S106B2020                | 12  |
 | Cube Corner Bracket, with M6 screw                            | VB-FR-01-CB1     | SMT Montagetechnik           | S206WV20203DS               | 8   |
+| Drop-in T Slot Nuts - M5 for 6mm slot                   | VB-FR-01-TSN2    | eBay(cnc-zubehoer)           | 131647310693               | 36  |
+
+#### Option 2:
+- 5mm slot extrusions Type A
+- __Drawbacks:__ requires modified 3d printed parts. The tabs going into the extrusion slots have to be slimmed down 
+- __Advantages:__ deeper slots (more space for cables), thread rolling nuts as per BOM, easier to source in black color
+
+| Description                                                   | MZBot Part #     | Supplier                     | Supplier Part # / eBay #   | Qty |
+|---------------------------------------------------------------|------------------|------------------------------|----------------------------|-----|
+| __Option 2:__ 5mm slot extrusions | 
+| 2020 Extrusion - Black - 370mm, 5mm slot, for M5 in end-holes  | VB-FR-01-EXT1    | SMT Montagetechnik           | S1052020SCH                | 12  |
+| Cube Corner Bracket, with M5 screw                            | VB-FR-01-CB1     | SMT Montagetechnik           | S205VS202020               | 8   |
+| Drop-in T Slot Nuts - M5 for 5mm slot                   | VB-FR-01-TSN2    | eBay(cnc-zubehoer)           | 131647310693               | 36  |
 
 
 ### Linear Motion  
@@ -39,14 +58,14 @@
 | 2 pin Dupont Connector (female set)                     | VB-EL-01-DC3     | eBay(eckstein_komponente)    | 282194267142(set of 10)    | 1   |
 | 4 pin Dupont Connector (female set)                     | VB-EL-01-DC4     | eBay(eckstein_komponente)    | 282194267142(set of 5)     | 1   |
 | Header Pins (Long)                                      | VB-EL-01-HP4     | eBay(madtronicsde)           | 142050561554(set of 200)   | 1   |
-| Molex MicroFit3 3pin Plug Housing                       | VB-EL-01-MLX-H3  | Mouser                       | 538-43640-0301             | 1   |
-| Molex MicroFit3 3pin Receptacle                         | VB-EL-01-MLX-R3  | Mouser                       | 538-43645-0300             | 1   |
-| Molex MicroFit3 2pin Plug Housing                       | VB-EL-01-MLX-H2  | Mouser                       | 538-43640-0201             | 7   |
-| Molex MicroFit3 2pin Receptacle                         | VB-EL-01-MLX-R2  | Mouser                       | 538-43645-0200             | 7   |
-| Molex MicroFit3 Female Pin (20-24AWG)                   | VB-EL-01-MLX-FP1 | Mouser                       | 538-43030-0007             | 4   |
-| Molex MicroFit3 Female Pin (26-30AWG)                   | VB-EL-01-MLX-FP2 | Mouser                       | 538-43030-0010             | 13  |
-| Molex MicroFit3 Male Pin (20-24AWG)                     | VB-EL-01-MLX-MP1 | Mouser                       | 538-43031-0007             | 4   |
-| Molex MicroFit3 Male Pin (26-30AWG)                     | VB-EL-01-MLX-MP2 | Mouser                       | 538-43031-0010             | 13  |
+| Molex MicroFit3 3pin Plug Housing                       | VB-EL-01-MLX-H3  | Mouser or TME                | 538-43640-0301             | 1   |
+| Molex MicroFit3 3pin Receptacle                         | VB-EL-01-MLX-R3  | Mouser or TME                | 538-43645-0300             | 1   |
+| Molex MicroFit3 2pin Plug Housing                       | VB-EL-01-MLX-H2  | Mouser or TME                | 538-43640-0201             | 7   |
+| Molex MicroFit3 2pin Receptacle                         | VB-EL-01-MLX-R2  | Mouser or TME                | 538-43645-0200             | 7   |
+| Molex MicroFit3 Female Pin (20-24AWG)                   | VB-EL-01-MLX-FP1 | Mouser or TME                | 538-43030-0007             | 4   |
+| Molex MicroFit3 Female Pin (26-30AWG)                   | VB-EL-01-MLX-FP2 | Mouser or TME                | 538-43030-0010             | 13  |
+| Molex MicroFit3 Male Pin (20-24AWG)                     | VB-EL-01-MLX-MP1 | Mouser or TME                | 538-43031-0007             | 4   |
+| Molex MicroFit3 Male Pin (26-30AWG)                     | VB-EL-01-MLX-MP2 | Mouser or TME                | 538-43031-0010             | 13  |
 | Spade Connector (Female)                                | VB-EL-01-SPC-F   | eBay(future-light-distribution)| 161717048382(set of 50)  | 8   |
 | Spade Connector (Male)                                  | VB-EL-01-SPC-M   | eBay(future-light-distribution)| 161717048382(set of 50)  | 1   |
 | 20AWG Wire (Black) 9ft                                  | VB-EL-01-W20-B   | eBay(big-brother3)           | 160762832426 (1m)          | 3   |
@@ -101,7 +120,6 @@
 | Plastics screw No. 1 7/16”                              | VB-HW-PS-1       | Online-Schrauben.de          | e.g. DIN7981 2.2x13mm         | 4   |
 | Spring 1" L 0.408" OD                                   | VB-HW-SPB-1      | eBay(top-industrieteile)     | 122022700476 (1x 10x 25mm) | 4   |
 | M3 Pressfit Threaded Insert                             | VB-HW-PFTI-M3    | eBay(gewindebohrerde)        | 331691172687               | 3   |
-| Drop-in T Slot Nuts - M5 for 6mm slot                   | VB-FR-01-TSN2    | eBay(cnc-zubehoer)           | 131647310693               | 36  |
 
 ### Tools  
 | Description                                             | MZBot Part #     | Supplier                     | Supplier Part # / eBay #   | Qty |
