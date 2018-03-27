@@ -1,0 +1,4 @@
+; Unload filament
+G1 E-5 F500
+G1 E-945 F3600
+G92 E0

@@ -1,0 +1,14 @@
+M569 P0 S0 ; Extruder goes forward
+M569 P1 S0 ; Z1 goes forward
+M569 P2 S1 ; Z2 goes backward
+M569 P3 S0 ; A goes forward
+M569 P4 S0 ; B goes forward
+M569 P5 S1 ; Z3 goes backward
+M569 P6 S0 ; Z4 goes backward
+
+; Motor mapping and steps per mm
+M584 X3 Y4 U1 V2 A5 B6 E0
+
+G0 U10 A10 F900 
+
+M584 X3 Y4 Z1:2:5:6 E0
