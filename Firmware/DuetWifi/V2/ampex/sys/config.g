@@ -19,7 +19,7 @@ M574 Z2 S1    ; Set active high for z
 
 ; Zprobe
 M98 P"/macros/probe_scripts/activate_z_switch.g" ; activate the Z switch (Type 5)
-G31 T7 P500 Y20 Z1.112                           ; Set parameters for inductive Probe (Type 7, NC connected to Z endstop GND and SIG)
+G31 T4 P500 Y20 Z1.112                           ; Set parameters for inductive Probe (Type 7, NC connected to Z endstop GND and SIG)
 G31 T5 P500 Y0 Z1.72 							 ; Set parameters for z switch        (Type 5, NC connected to probe port GND and SIG)
 
 
